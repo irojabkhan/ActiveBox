@@ -68,12 +68,16 @@ $viewport-xs: 420px;
 
 
 @media (max-width: $viewport-md) {
-	.banner-text {
-		h1 {
-			font-size: 42px;
-		}
-		p {
-			font-size: 18px;
+
+	#banner {
+		.banner-text {
+			h1 {
+				font-size: 42px;
+			}
+
+			p {
+				font-size: 18px;
+			}
 		}
 	}
 
@@ -109,14 +113,49 @@ $viewport-xs: 420px;
 	}
 
 	.footer-con {
-	margin-bottom: 50px;
+		margin-bottom: 50px;
 	}
 }
 
 @media (max-width: $viewport-sm) {
-	.banner-text {
-	 	h1 {
-	 		font-size: 32px;
-	 	}
+
+	#banner {
+		.banner-text {
+			h1 {
+				font-size: 32px;
+			}
+		}
+	}
+
+	#testimonials {
+		.flexslider {
+			.slides {
+				li {
+					.flex-caption {
+						padding: 30px;	
+					}
+				}
+			}
+		}
+	}
+	.footer-top {
+		.footer-con {
+			margin-bottom: 50px;
+		}
+	}
+}
+
+@media (max-width: $viewport-xs) {
+
+	#testimonials {
+		.flexslider {
+			.slides {
+				li {
+					.flex-caption {
+						padding: 20px;	
+					}
+				}
+			}
+		}
 	}
 }

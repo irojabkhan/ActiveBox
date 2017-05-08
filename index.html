@@ -10,15 +10,24 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-
+    
+    <!-- et line icon -->
     <link rel="stylesheet" type="text/css" href="css/et-line-icon.css">
+
+    <!-- Flex Slider -->
     <link rel="stylesheet" type="text/css" href="css/flexslider.css">
+
+    <!-- Fancy Box Popup -->
     <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <link rel="stylesheet" type="text/css" href="css/meanmenu.css">
 
+    <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cardo:400,400i" rel="stylesheet">
     
@@ -31,35 +40,26 @@
     <![endif]-->
   </head>
   <body data-spy="scroll" data-target="#mynav_bar" data-offset="78">
+    
+    <!-- Mobile Menu Start here -->
+    <header class="mob-menu">
+      <nav>
+      <a href="">
+        <img src="img/logo.png" class="mobile-logo" alt="">
+      </a>
 
+        <ul>
+          <li class="active"><a href="#features">features</a></li>
+          <li><a href="#works">works</a></li>
+          <li><a href="#team">our team</a></li>
+          <li><a href="#testimonials">testimonials</a></li>
+          <li class="last-child"><a href="#download">download</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Mobile Menu End here -->
 
-
-<header class="mob-menu">
-  <nav>
-  <a href="">
-    <img src="img/logo.png" class="mobile-logo" alt="">
-  </a>
-
-    <ul>
-      <li class="active"><a href="#features">features</a></li>
-      <li><a href="#works">works</a></li>
-      <li><a href="#team">our team</a></li>
-      <li><a href="#testimonials">testimonials</a></li>
-      <li class="last-child"><a href="#download">download</a></li>
-    </ul>
-  </nav>
-</header>
-
-
-
-
-
-
-
-
-
-
-
+    <!-- Banner Start Here -->
     <section id="banner">
       <header id="mynav_bar">
         <div class="container main_nav">
@@ -71,7 +71,7 @@
             </div>
             <div class="col-md-9">
               <ul class="nav nav_bar">
-                <li class="active"><a href="#features">features</a></li>
+                <li><a href="#features">features</a></li>
                 <li><a href="#works">works</a></li>
                 <li><a href="#team">our team</a></li>
                 <li><a href="#testimonials">testimonials</a></li>
@@ -94,7 +94,9 @@
         </div>
       </div>
     </section>
+    <!-- Banner Start Here -->
 
+    <!-- Feature Start Here -->
     <section id="features">
       <div class="container">
         <div class="row">
@@ -155,7 +157,9 @@
         </div>
       </div>
     </section>
+    <!-- Feature End Here -->
 
+    <!-- Works Start Here -->
     <section id="works">
       <div class="container-fluid">
         <div class="row no-gutter">
@@ -250,7 +254,9 @@
         </div>
       </div>
     </section>
+    <!-- Works End Here -->
 
+    <!-- Team Start Here -->
     <section id="team">
       <div class="container">
         <div class="row">
@@ -413,7 +419,9 @@
         </div>
       </div>
     </section>
+    <!-- Team End Here -->
 
+    <!-- Testimonial Start Here -->
     <section id="testimonials">
       <div class="container-fluid">
         <div class="row no-gutter">
@@ -454,7 +462,9 @@
         </div>
       </div>
     </section>
+    <!-- Testimonial End Here -->
 
+    <!-- Download Start Here -->
     <section id="download">
       <div class="container">
         <div class="row">
@@ -467,7 +477,9 @@
         </div>
       </div>
     </section>
+    <!-- Download End Here -->
     
+    <!-- Footer Start Here -->
     <footer>
       <div class="footer-top text-center">
         <div class="container">
@@ -528,21 +540,29 @@
         </div>
       </div>
     </footer>
+    <!-- Footer End Here -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- Flex Slider -->
     <script src="js/jquery.flexslider-min.js"></script>
+
+    <!-- Fancy Box -->
     <script src="js/jquery.fancybox.min.js"></script>
-    <script src="js/main.js"></script>
+
+    <!-- Mobile Menu -->
     <script src="js/jquery.meanmenu.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
 
     <script>
       jQuery(document).ready(function () {
-      jQuery('header nav').meanmenu();
-  });
-
+        jQuery('header nav').meanmenu();
+      });
     </script>
   </body>
 </html>
